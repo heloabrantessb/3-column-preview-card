@@ -23,22 +23,21 @@ div{
     width: 100%;
     height: 33.33%;
     padding: 2.5rem 3rem;
-
-    p{
-        color:  hsla(0, 0%, 100%, 0.75);
-        font-size: 12px;
-        padding-bottom: 2.5rem;
-        font-family: 'Lexend Deca', sans-serif;
-    }
-    h1{
-        color: hsl(0, 0%, 95%);
-        padding-bottom: 1.5rem;
-        text-transform: uppercase;
-        font-family: 'Big Shoulders Display', sans-serif;
-    }
-    img{
-        padding-bottom: 1.5rem;
-    }
+}
+div  img{
+    padding-bottom: 1.5rem;
+}
+div  h1{
+    color: hsl(0, 0%, 95%) !important;  
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+div p{
+    color:  hsla(0, 0%, 100%, 0.75) !important;
+    font-size: 12px;
+    padding-bottom: 2.5rem;
+    font-family: 'Lexend Deca', sans-serif;
 }
 div:nth-child(1){
     background-color: hsl(31, 77%, 52%);
@@ -82,28 +81,28 @@ button{
     }
     div{
         height: 100%;
-        img,
-        h1,
-        p
-        {
-            padding: 1.6rem;
-        }
-        p{
-            width: 95%;
-            font-size: medium;
-            text-align: left;
-        }
-        button{
-            margin-top: 8rem;
-            margin-left: 1.6rem;
-            cursor: pointer;
-        }
-        button:hover{
-            background-color:transparent;
-            border: 2px solid hsl(0, 0%, 95%);
-            color: hsl(0, 0%, 95%) !important;
-        }
+       
+        
     }
+    div img, h1, p{
+        padding: 1.6rem;
+    }
+    div p{
+        width: 95%;
+        font-size: medium;
+        text-align: left;
+    }
+    div button{
+        margin-top: 8rem;
+        margin-left: 1.6rem;
+        cursor: pointer;
+    }
+    div button:hover{
+        background-color:transparent;
+        border: 2px solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%) !important;
+    }
+
     div:nth-child(1){
         border-top-left-radius: 8px;
         border-top-right-radius: 0;
