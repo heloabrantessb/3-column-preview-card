@@ -27,11 +27,12 @@ div{
 div  img{
     padding-bottom: 1.5rem;
 }
-div  h1{
+div  h2{
     color: hsl(0, 0%, 95%) !important;  
     padding-bottom: 1.5rem;
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', sans-serif;
+    font-size: x-large;
 }
 div p{
     color:  hsla(0, 0%, 100%, 0.75) !important;
@@ -52,25 +53,29 @@ div:nth-child(3){
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-button{
+a{
     background-color: hsl(0, 0%, 95%);
     border: none;
-    width: 11.8rem;
+    width: 12rem;
     height: 3.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
     font-family: 'Lexend Deca',sans-serif;
+    text-decoration: none;
 }
-#sedan{
+.sedan{
     color: hsl(31, 77%, 52%);
 }
-#suv{
+.suv{
     color: hsl(184, 100%, 22%);
 }
-#luxury{
+.luxury{
     color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
     body{
         height: 100vh;
     }   
@@ -84,7 +89,7 @@ button{
        
         
     }
-    div img, h1, p{
+    div img, h2, p{
         padding: 1.6rem;
     }
     div p{
@@ -92,12 +97,12 @@ button{
         font-size: medium;
         text-align: left;
     }
-    div button{
+    div a{
         margin-top: 8rem;
         margin-left: 1.6rem;
         cursor: pointer;
     }
-    div button:hover{
+    div a:hover{
         background-color:transparent;
         border: 2px solid hsl(0, 0%, 95%);
         color: hsl(0, 0%, 95%) !important;
